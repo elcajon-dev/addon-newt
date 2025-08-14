@@ -9,12 +9,15 @@ ARG BUILD_ARCH="amd64"
 # renovate: datasource=github-releases depName=newt packageName=fosrl/newt versioning=loose
 ARG NEWT_VERSION="1.4.1"
 
+# Set shell
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+
 # hadolint ignore=SC2181, DL3008
 RUN \
     if [[ "${BUILD_ARCH}" = "aarch64" ]]; then ARCH="arm64"; fi \
     && if [[ "${BUILD_ARCH}" = "amd64" ]]; then ARCH="amd64"; fi \
     && if [[ "${BUILD_ARCH}" = "armv7" ]]; then ARCH="arm32"; fi \
-    && wget -O newt \
+    && wget -q -O newt \
         "https://github.com/fosrl/newt/releases/download/${NEWT_VERSION}/newt_linux_${ARCH}" \
     && mv ./newt /opt/ \
     && chmod a+x /opt/newt \

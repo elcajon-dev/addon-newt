@@ -45,7 +45,7 @@ if bashio::config.exists log_level; then
         *)
             bashio::exit.nok "Unknown log_level: ${log_level}"
     esac
-    options+=(--log-level $log_level)
+    options+=(--log-level "$log_level")
 fi
 
 
