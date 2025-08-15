@@ -15,17 +15,17 @@
 ![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
 
-A tunneling client for Pangolin run on your Home Assistant instance
+A tunneling client for Pangolin running on your Home Assistant instance
 
 ## About
 
-[Newt](https://github.com/fosrl/newt) is a fully user space WireGuard
+[Newt](https://github.com/fosrl/newt) is a fully user-space WireGuard
 tunnel client and TCP/UDP proxy, designed to securely expose private resources
 controlled by Pangolin. By using Newt, you don't need to manage complex
 WireGuard tunnels and NATing.
 
 Installing this add-on on your Home Assistant instance enables you to
-connect your Home Assistant and other local ressources to Pangolin.
+connect your Home Assistant and other local resources to Pangolin.
 
 [:books: Read the full add-on documentation][docs]
 
