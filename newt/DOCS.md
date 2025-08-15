@@ -1,12 +1,12 @@
-# Home Assistant Add-on: Advanced Code Server
+# Home Assistant Add-on: Newt
 
-[Newt](https://github.com/fosrl/newt) is a fully user space WireGuard
+[Newt](https://github.com/fosrl/newt) is a fully user-space WireGuard
 tunnel client and TCP/UDP proxy, designed to securely expose private resources
 controlled by Pangolin. By using Newt, you don't need to manage complex
 WireGuard tunnels and NATing.
 
 Installing this add-on on your Home Assistant instance enables you to
-connect your Home Assistant and other local ressources to Pangolin.
+connect your Home Assistant and other local resources to Pangolin.
 
 ## Installation
 
@@ -24,17 +24,17 @@ displayed values to the respective configuration options listed below.
 
 ### Option: `pangolin_endpoint`
 
-Set this option to the displayed endpoint URL displayed after creating your
+Set this option to the endpoint URL displayed after creating your
 Pangolin site.
 
 ### Option: `newt_id`
 
-Set this option to the displayed id displayed after creating your
+Set this option to the id displayed after creating your
 Pangolin site.
 
 ### Option: `newt_secret`
 
-Set this option to the displayed secret displayed after creating your
+Set this option to the secret displayed after creating your
 Pangolin site.
 
 ### Option: `log_level`
