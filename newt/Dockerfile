@@ -7,7 +7,7 @@ ENV S6_VERBOSITY="1"
 ARG BUILD_ARCH="amd64"
 
 # renovate: datasource=github-releases depName=newt packageName=fosrl/newt versioning=loose
-ARG NEWT_VERSION="1.5.2"
+ARG NEWT_VERSION="1.6.0"
 
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
