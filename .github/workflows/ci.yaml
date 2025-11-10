@@ -33,7 +33,7 @@ jobs:
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
       - name: 🚀 Run add-on information action
         id: information
-        uses: frenck/action-addon-information@ce1377e9851cf569c29329e65fb2c57e67ca0f69 # v1.4.2
+        uses: elcajon/action-addon-information@v2
       - name: 🚀 Process possible slug override
         id: override
         run: |
@@ -52,7 +52,7 @@ jobs:
       - name: ⤵️ Check out code from GitHub
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
       - name: 🚀 Run Add-on Lint
-        uses: frenck/action-addon-linter@4d0965b4072596c4b2768a1d9eb6edd41d639a63 # v2.18.0
+        uses: elcajon/action-addon-linter@v3.1
         with:
           community: true
           path: "./${{ needs.information.outputs.target }}"
