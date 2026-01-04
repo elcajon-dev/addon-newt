@@ -47,7 +47,7 @@ using [this GitHub repository][ha-addons] or by clicking the button below.
 [github-actions-shield]: https://github.com/homeassistant-apps/app-newt/workflows/CI/badge.svg
 [github-actions]: https://github.com/homeassistant-apps/app-newt/actions
 [license-shield]: https://img.shields.io/github/license/homeassistant-apps/app-newt.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2026.svg
 [releases-shield]: https://img.shields.io/github/release/homeassistant-apps/app-newt.svg
 [releases]: https://github.com/homeassistant-apps/app-newt/releases
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
