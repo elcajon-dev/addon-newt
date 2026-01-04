@@ -23,14 +23,14 @@ body:
     validations:
       required: true
     attributes:
-      label: What version of Code Server has the issue?
+      label: What version of Newt has the issue?
       placeholder: 9.x.x
       description: >-
         Can be found in:
         [Settings -> Add-Ons -> Newt](https://my.home-assistant.io/redirect/supervisor_addon/?addon=a03729f7_Newt).
   - type: input
     attributes:
-      label: What was the last working version of Code Server?
+      label: What was the last working version of Newt?
       placeholder: 9.x.x
       description: >
         If known, otherwise leave blank.
