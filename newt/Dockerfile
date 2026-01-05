@@ -16,7 +16,6 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN \
     if [[ "${BUILD_ARCH}" = "aarch64" ]]; then ARCH="arm64"; fi \
     && if [[ "${BUILD_ARCH}" = "amd64" ]]; then ARCH="amd64"; fi \
-    && if [[ "${BUILD_ARCH}" = "armv7" ]]; then ARCH="arm32"; fi \
     && wget -q -O newt \
         "https://github.com/fosrl/newt/releases/download/${NEWT_VERSION}/newt_linux_${ARCH}" \
     && mv ./newt /opt/ \
